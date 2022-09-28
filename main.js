@@ -1,9 +1,15 @@
 addEventListener("DOMContentLoaded", (e)=>{
-    let radio=Number(prompt("ingrese el valor de el radio : "))
-    let op1= 2 *   Math.PI * radio
-    let op2=Math.PI * Math.pow(radio, 2)
-    alert(`la longirud de la circuferencia ${op1}`)
-    alert(`area de la circuferencia ${op2}`)
+// definir variables numericas 
+// # datos de entrada
+// # operaciones basicas *
+let long= Number(prompt())
+let radio=Number(prompt())
+//# preceso u operacion  
+long=Number(long*Math.PI*radio)
+radio=Number(Math.PI*(radio**2))
+//# salida o entregra de resultados 
+console.log("long es:",long)
+console.log("radio es:",radio)
 
 
     
